@@ -3,7 +3,7 @@ import React from 'react'
 function Card(props) {
   return (
     <div className='flex justify-center md:justify-normal py-6 md:py-1 px-8 md:px-0'>
-       <div className=' flex-col md:flex-row flex  md:w-11/12 cursor-pointer  border-1 shadow-[0_3px_20px_rgba(0,0,0,0.3)]  rounded-xl '>
+       <div className=' flex-col md:flex-row flex  md:w-[100%] cursor-pointer  border-1 shadow-[0_3px_20px_rgba(0,0,0,0.3)]  rounded-xl '>
            <div className='mx-auto w-[370px] md:w-[400px] flex items-center md:h-[240px] p-3'>
               <img className='rounded-xl h-full' src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/ecf8833b-a333-40fb-a399-61ba2d7db877.png" alt="img" />
            </div>
