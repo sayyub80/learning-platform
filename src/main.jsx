@@ -8,6 +8,7 @@ import Home from './components/Home.jsx'
 import About from './components/About.jsx'
 import MyCourses from './components/MyCourses.jsx'
 import Courses from './components/Courses.jsx'
+import UpscCource from './components/coursedetails/UpscCource.jsx'
 
 
 
@@ -18,6 +19,8 @@ const router = createBrowserRouter(
       <Route path='about' element={<About />} />
       <Route path='courses' element={<Courses/>} />
       <Route path='mycourses' element={<MyCourses/>}/>
+      <Route path='Upsccourse' element={<UpscCource/>}/>
+      
     </Route>
   )
 )
